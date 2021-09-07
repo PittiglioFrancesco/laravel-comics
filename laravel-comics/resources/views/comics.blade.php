@@ -9,8 +9,8 @@
         <div class="card-container">
             @foreach($fumetti as $fumetto)
             <div class="card">
-                <img src="{{ $formato['thumb'] }}" alt="{{ $formato['title'] }}">
-                <div class="layover"><h2><a href=""> {{ $formato['title'] }} </a></h2></div>
+                <img src="{{ $fumetto['thumb'] }}" alt="{{ $fumetto['title'] }}">
+                <div class="layover"><h2><a href=""> {{ $fumetto['title'] }} </a></h2></div>
             </div>
             @endforeach
         </div>

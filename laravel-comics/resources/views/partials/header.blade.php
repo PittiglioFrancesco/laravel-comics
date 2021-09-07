@@ -5,6 +5,7 @@
     <div class="menu">
         <nav>
             <ul>
+                <li><a href="{{route('pagina-home')}}">HOME</a></li>
                 <li><a href="{{route('pagina-characters')}}">CHARACTERS</a></li>
                 <li><a href="{{route('pagina-comics')}}">COMICS</a></li>
                 <li><a href="{{route('pagina-movies')}}">MOVIES</a></li>

@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layout.app');
-});
+    return view('home');
+})->name('pagina-home');
 
 Route::get('/characters', function () {
     return view('characters');
